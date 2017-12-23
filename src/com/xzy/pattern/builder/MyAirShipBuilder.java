@@ -7,19 +7,19 @@ package com.xzy.pattern.builder;
 public class MyAirShipBuilder implements AirShipBuilder {
     @Override
     public Engine buildEngine() {
-        System.out.println("构建向召元牌发动机");
-        return new Engine("向召元牌发动机");
+        System.out.println("构建xzy牌发动机");
+        return new Engine("xzy牌发动机");
     }
 
     @Override
     public OrbitalModule buildOrbitalModule() {
-        System.out.println("构建向召元牌轨道舱");
-        return new OrbitalModule("向召元牌轨道舱");
+        System.out.println("构建xzy牌轨道舱");
+        return new OrbitalModule("xzy牌轨道舱");
     }
 
     @Override
     public EscapeTower buildEscapeTower() {
-        System.out.println("构建向召元牌逃逸塔");
-        return new EscapeTower("向召元牌逃逸塔");
+        System.out.println("构建xzy牌逃逸塔");
+        return new EscapeTower("xzy牌逃逸塔");
     }
 }
